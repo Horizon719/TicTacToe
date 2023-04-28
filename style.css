@@ -1,0 +1,19 @@
+#tarolo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.elem{
+    flex: 0 0 30%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.elem p{
+    text-align: center;
+    font-size: 50px;
+}
